@@ -1,3 +1,6 @@
+# 201900776 김보석 컴퓨터전자시스템공학부
+
+#print("Hello, World!!)
 # 회문 부문자열 구하는 문제
 # 입력문
 string = list(input().lower())
