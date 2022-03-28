@@ -11,7 +11,6 @@ string = list(input().lower())
 
 def discrim(string):
     if string == string[::-1]:
-
         return True
     else:
         return False
@@ -37,7 +36,7 @@ for i in range(len(string)):
             noRotate = 0  # 회문이 있을 때 0
     if noRotate == 0:  # 회문이 있으면 for 문 탈출
         break
-    digit += -1  # 자릿수 하나 줄이기
+    digit -= 1  # 자릿수 하나 줄이기
 
 subString = sorted(list(set(subString)))  # 중복 제거 후 리스트 변환후 정렬
 
